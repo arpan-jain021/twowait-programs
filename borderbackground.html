@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>height,width,borders and backgrounds</title> 
+     <style>
+          #firstpara{
+               background-color:red;
+               height:1000px;
+               width:4550px;
+               border:2px solid green;
+               /* border-width:4px;
+               border-color:green;
+               border-style:solid; */
+               border-radius:13px;/*corner round*/
+          }
+          #secondpara{
+               background-color:red;
+               height:100px;
+               width:455px;
+               border-top:2px solid violet;
+               border-right:2px solid violet;
+               border-left:2px solid rgb(191, 238, 130);
+               border-bottom:2px solid rgb(164, 238, 130);
+               border-top-left-radius:11px;
+               border-bottom-right-radius:11px;
+
+          }
+          #thirdpara{
+               height:5000px;
+               width:4550px;
+               background-image: url('unsplash.jpg');
+               border:2px solid black;
+               /* background-repeat:repeat-x; */
+               /* background-repeat:repeat-y; */
+               background-repeat:no-repeat;
+               background-position: center center;/*center top,12px top,*/
+          }
+          #ed{
+               background-position: center;
+               background-size: auto;
+               padding:0;
+               margin:0;
+          }
+     </style>
+</head>
+<body>
+     <h3>This is a heading</h3>
+     <p id="firstpara">This is a paragraph</p>
+
+     <h3>This is a heading</h3>
+     <p id="secondpara">This is a paragraph</p>
+
+     <h3>This is a heading</h3>
+     <p id="thirdpara">This is a paragraph</p>
+     <img src="unsplash.jpg" width="100%" height="700" id="ed">
+</body>
+</html>
